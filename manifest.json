@@ -1,0 +1,27 @@
+{
+  "name": "Cookie Clicker",
+  "description": "GDPR Be Gone",
+  "version": "1.0.0",
+  "permissions": ["activeTab", "tabs", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "web_accessible_resources": ["images/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["jquery.min.js", "contentScript.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Cookie Clicker",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "icons": {
+    "16": "icons/cookie16.png",
+    "48": "icons/cookie48.png",
+    "128": "icons/cookie128.png"
+  }
+}
