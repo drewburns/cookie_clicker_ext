@@ -1,4 +1,5 @@
-# Student Admin Helper 
+# Cookie Clicker Extension
+[Link to download](https://chrome.google.com/webstore/detail/cookie-clicker/fddoklbbncbclomgdaikpjnlejjlppdb) 
 
 ### Introduction
 This is a chrome extension that automatically clicks cookies for you. It keeps track of the list of sites you've accepted. It does this using jQuery finds.
